@@ -14,7 +14,7 @@ export default function NavBar() {
           {/* Logo / Título */}
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="text-xl font-bold tracking-wider text-amber-400 flex items-center gap-2">
-              <span className='text-amber-50 font-light mr-8'>Logo</span> Organizador de notas
+              <span className='text-amber-50 font-light'>Logo</span> Organizador de notas
             </Link>
           </div>
 
