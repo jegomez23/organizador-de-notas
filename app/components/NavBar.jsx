@@ -63,11 +63,11 @@ export default function NavBar() {
 
       {/* Menú Móvil Desplegable */}
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden bg-slate-900 border-b border-slate-800 px-2 pt-2 pb-4 space-y-1 sm:px-3`}>
-        <Link href="/notas" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-slate-800">
+        <Link href="/panelnotas" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-slate-800">
           Mis Notas
         </Link>
       
-        <Link href="/notas/crear" className="block text-center bg-amber-500 text-slate-900 px-4 py-2 rounded-md text-base font-semibold mt-4">
+        <Link href="/crearnotas" className="block text-center bg-amber-500 text-slate-900 px-4 py-2 rounded-md text-base font-semibold mt-4">
           + Nueva Nota
         </Link>
       </div>
