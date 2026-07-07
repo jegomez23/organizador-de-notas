@@ -55,8 +55,8 @@ export default function CrearNotaPage() {
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 p-4 sm:p-6 lg:p-8">
-      <div className="max-w-3xl mx-auto">
-        
+      <div className="max-w-3xl mx-auto animate-fade-up">
+
         {/* Botón de regreso */}
         <div className="mb-6">
           <Link 
@@ -95,6 +95,7 @@ export default function CrearNotaPage() {
               onChange={(e) => setTitle(e.target.value)}
               placeholder="Ej. Ideas para el proyecto o Lista de compras..."
               className="w-full bg-slate-950 border border-slate-800 rounded-lg px-4 py-3 text-sm text-slate-200 placeholder-slate-600 focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 transition-colors"
+              autoFocus
               required
             />
           </div>
